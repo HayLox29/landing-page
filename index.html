@@ -1,54 +1,22 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <!-- Temel Meta Etiketleri -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Profesyonel ve modern landing page. Hızlı, güvenli ve erişilebilir web tasarımı.">
-    <meta name="keywords" content="landing page, profesyonel web tasarımı, modern UI">
-    <meta name="author" content="HayLox29">
     <meta name="theme-color" content="#0066cc">
     
-    <!-- Open Graph (Sosyal Medya Paylaşımı) -->
     <meta property="og:title" content="Profesyonel Landing Page">
     <meta property="og:description" content="Modern ve optimize edilmiş landing page şablonu">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://github.com/HayLox29/landing-page">
-    <meta property="og:image" content="https://via.placeholder.com/1200x630?text=Landing+Page">
-    
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Profesyonel Landing Page">
-    <meta name="twitter:description" content="Modern ve optimize edilmiş landing page şablonu">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' fill='%230066cc'>◆</text></svg>">
-    
-    <!-- Structured Data (Schema.org) -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": "Profesyonel Landing Page",
-        "description": "Modern ve optimize edilmiş landing page şablonu",
-        "url": "https://github.com/HayLox29/landing-page",
-        "creator": {
-            "@type": "Person",
-            "name": "HayLox29"
-        }
-    }
-    </script>
     
     <title>Profesyonel Landing Page - Modern Web Tasarımı</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
-    <!-- Header / Navigation -->
     <header class="header">
         <nav class="navbar">
-            <div class="logo" aria-label="Site logosu">◆</div>
+            <div class="logo">◆</div>
             <ul class="nav-links">
                 <li><a href="#anasayfa">Anasayfa</a></li>
                 <li><a href="#hakkinda">Hakkında</a></li>
@@ -57,22 +25,19 @@
         </nav>
     </header>
 
-    <!-- Main Content -->
     <main>
-        <!-- Hero Section -->
         <section id="anasayfa" class="hero">
             <div class="hero-content">
                 <h1>Profesyonel Landing Page'e Hoş Geldiniz</h1>
                 <p>Modern tasarım, hızlı yükleme ve tam erişilebilirlik ile yapılmış profesyonel bir web sayfası.</p>
                 
                 <div class="cta-buttons">
-                    <a href="#hakkinda" class="btn btn-primary" aria-label="Daha fazla bilgi için Hakkında bölümüne git">Daha Fazla Bilgi</a>
-                    <a href="#iletisim" class="btn btn-secondary" aria-label="İletişim formuna git">İletişime Geç</a>
+                    <a href="#hakkinda" class="btn btn-primary">Daha Fazla Bilgi</a>
+                    <a href="#iletisim" class="btn btn-secondary">İletişime Geç</a>
                 </div>
             </div>
         </section>
 
-        <!-- About Section -->
         <section id="hakkinda" class="about">
             <div class="container">
                 <h2>Neden Bizi Seçmelisiniz?</h2>
@@ -117,35 +82,33 @@
             </div>
         </section>
 
-        <!-- Contact Section -->
         <section id="iletisim" class="contact">
             <div class="container">
                 <h2>Bize Ulaşın</h2>
                 <p>Sorularınız veya önerileriniz için bizimle iletişime geçin.</p>
                 
-                <form class="contact-form" method="POST" action="#" aria-label="İletişim formu">
+                <form class="contact-form" method="POST" action="#">
                     <div class="form-group">
                         <label for="name">Adınız *</label>
-                        <input type="text" id="name" name="name" required aria-required="true" placeholder="Adınızı girin">
+                        <input type="text" id="name" name="name" required placeholder="Adınızı girin">
                     </div>
                     
                     <div class="form-group">
                         <label for="email">E-posta *</label>
-                        <input type="email" id="email" name="email" required aria-required="true" placeholder="E-posta adresinizi girin">
+                        <input type="email" id="email" name="email" required placeholder="E-posta adresinizi girin">
                     </div>
                     
                     <div class="form-group">
                         <label for="message">Mesaj *</label>
-                        <textarea id="message" name="message" required aria-required="true" rows="5" placeholder="Mesajınızı yazın"></textarea>
+                        <textarea id="message" name="message" required rows="5" placeholder="Mesajınızı yazın"></textarea>
                     </div>
                     
-                    <button type="submit" class="btn btn-primary" aria-label="Formu gönder">Gönder</button>
+                    <button type="submit" class="btn btn-primary">Gönder</button>
                 </form>
             </div>
         </section>
     </main>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="footer-content">
             <div class="footer-section">
@@ -165,9 +128,9 @@
             <div class="footer-section">
                 <h4>Sosyal Medya</h4>
                 <ul class="social-links">
-                    <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter'da bizi takip edin">Twitter</a></li>
-                    <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn'de bizi takip edin">LinkedIn</a></li>
-                    <li><a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub'da bizi takip edin">GitHub</a></li>
+                    <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+                    <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://github.com" target="_blank">GitHub</a></li>
                 </ul>
             </div>
         </div>
@@ -182,13 +145,12 @@
         </div>
     </footer>
 
-    <!-- Cookie Consent Banner -->
-    <div id="cookie-banner" class="cookie-banner" role="dialog" aria-label="Çerez onayı">
+    <div id="cookie-banner" class="cookie-banner">
         <div class="cookie-content">
             <p>Bu site, deneyimi geliştirmek için çerezler kullanır. Devam ederek, çerez kullanımını kabul etmiş olursunuz.</p>
             <div class="cookie-buttons">
-                <button class="btn btn-secondary" id="cookie-reject" aria-label="Çerezleri reddet">Reddet</button>
-                <button class="btn btn-primary" id="cookie-accept" aria-label="Çerezleri kabul et">Kabul Et</button>
+                <button class="btn btn-secondary" id="cookie-reject">Reddet</button>
+                <button class="btn btn-primary" id="cookie-accept">Kabul Et</button>
             </div>
         </div>
     </div>
